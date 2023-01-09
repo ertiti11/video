@@ -19,4 +19,4 @@ async def getfile():
 @app.get("/video")
 async def getvideo():
     file_path = os.path.join(path, "Particulas.mp4")
-    return FileResponse(file_path, media_type="mp4")
+    return FileResponse(file_path, media_type=".mp4")
